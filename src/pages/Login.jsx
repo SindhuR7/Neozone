@@ -31,7 +31,7 @@ const Login = () => {
       }
 
       if(mydata.email === storeData.email && mydata.password === storeData.password){
-        navigate('/home')
+        navigate('/')
       }
 
     }
