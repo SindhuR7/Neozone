@@ -48,11 +48,11 @@ const SignUp = () => {
       console.log("data = ",mydata)
 
       setTimeout(()=> {
-        navigate('/')
+        navigate('/login')
       },2000)
     }
     const handleBack = () => {
-        navigate('/')
+        navigate('/login')
     }
   return (
     <>
